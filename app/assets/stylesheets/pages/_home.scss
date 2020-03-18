@@ -3,6 +3,7 @@
   // background-image:
   // linear-gradient(to right, black, transparent),
   // url("kimonoHome.jpg");
+  background-image: url("kimonoHome.jpg");
   background-size: cover;
   background-position: center;
   // padding: 150px 0;
@@ -16,6 +17,9 @@
   text-align: center;
 
 }
+.search-box{
+  top: 260px;
+}
 
 p {
   // color: white;
@@ -23,13 +27,16 @@ p {
   margin-top: 18px;
 }
 .home-row {
-  margin-top: 125px;
   text-align: center;
+  height: calc(100vh - 68px);
 }
 
-.btn {
-  margin-top: 22px;
-  margin-bottom: 22px;
+.home-search-item{
+  padding: 10px;
 }
-// }
+
+a{
+  color: white;
+}
+
 
